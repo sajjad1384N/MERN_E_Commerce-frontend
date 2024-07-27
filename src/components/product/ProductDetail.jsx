@@ -14,7 +14,7 @@ const ProductDetail = () => {
         headers: {
           "Content-Type": "Application/json",
         },
-       // withCredentials: true,
+        withCredentials: true,
       });
     //   console.log(api.data.product);
     setProduct(api.data.product)
